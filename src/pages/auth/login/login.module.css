@@ -1,0 +1,14 @@
+.mobile-ornament {
+  height: 3.8rem;
+}
+
+.container {
+  padding: 2rem 1rem 3rem;
+  flex-direction: column;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.button {
+  width: 100%;
+}

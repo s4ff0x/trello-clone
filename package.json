@@ -19,7 +19,12 @@
     "clsx": "^2.1.0",
     "modern-normalize": "^2.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@effector/reflect": "^8.3.1",
+    "@supabase/supabase-js": "^2.26.0",
+    "effector": "^22.8.6",
+    "effector-react": "^22.5.3",
+    "patronum": "^1.18.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.7",
@@ -55,6 +60,7 @@
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-standard": "^33.0.0",
     "typescript": "^5.0.2",
-    "vite": "^4.3.9"
+    "vite": "^4.3.9",
+    "vite-plugin-svgr": "^3.2.0"
   }
 }

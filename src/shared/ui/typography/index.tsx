@@ -12,7 +12,7 @@ export interface Props extends HTMLAttributes<HTMLElement> {
   children?: ReactNode;
 }
 
-export type Ref = any;
+export type Ref = HTMLElement & HTMLSpanElement & HTMLParagraphElement;
 
 export const Typography = forwardRef<Ref, Props>(
   (

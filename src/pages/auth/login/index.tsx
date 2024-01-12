@@ -19,7 +19,9 @@ export const Login = () => {
 
         <form action="">
           <Input
-            onValue={() => {}}
+            onValue={() => {
+              console.log("value");
+            }}
             name={"email"}
             value={""}
             label={"Email"}

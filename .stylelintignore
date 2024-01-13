@@ -9,3 +9,5 @@ dist
 **/*.tsx
 
 index.html
+.storybook
+**/stories/*

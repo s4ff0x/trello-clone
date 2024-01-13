@@ -1,12 +1,5 @@
 {
-  "**/*.{js,ts,tsx}": [
-    "eslint --fix",
-    "prettier --write",
-    "pnpm run lint:js"
-  ],
-  "**/*.{css}": [
-    "stylelint --fix",
-    "prettier --write",
-    "pnpm run lint:css"
-  ]
+  "**/*.{ts,tsx,css}": "prettier --write",
+  "*.ts": "eslint --fix",
+  "*.css": "stylelint --fix"
 }

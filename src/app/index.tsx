@@ -1,7 +1,9 @@
+import { Login } from "@/pages/auth/login";
+
 export function App() {
   return (
     <>
-      <h1>app</h1>
+      <Login />
     </>
   );
 }

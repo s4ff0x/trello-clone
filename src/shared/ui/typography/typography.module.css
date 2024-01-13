@@ -1,0 +1,39 @@
+.root {
+  font: var(--font-size-md);
+}
+
+.size-sm {
+  font: var(--font-size-sm);
+}
+
+.size-md {
+  font: var(--font-size-md);
+}
+
+.size-lg {
+  font: var(--font-size-lg);
+}
+
+.size-xl {
+  font: var(--font-size-xl);
+}
+
+.size-2xl {
+  font: var(--font-size-2xl);
+}
+
+.size-3xl {
+  font: var(--font-size-3xl);
+}
+
+.weight-regular {
+  font-weight: var(--font-weight-regular);
+}
+
+.weight-medium {
+  font-weight: var(--font-weight-medium);
+}
+
+.weight-bold {
+  font-weight: var(--font-weight-bold);
+}

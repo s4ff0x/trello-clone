@@ -12,3 +12,71 @@
 .button {
   width: 100%;
 }
+
+.logo {
+  display: none;
+}
+
+.footer {
+  display: none;
+}
+
+.shapes {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .mobile-ornament {
+    display: none;
+  }
+
+  .container {
+    min-width: 360px;
+    margin: 0 auto;
+    flex-shrink: 0;
+  }
+
+  .logo-icon {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .main {
+    height: 100%;
+    display: flex;
+  }
+
+  .wrapper {
+    height: 100%;
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mail svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+
+  .mail {
+    display: flex;
+    align-items: center;
+  }
+
+  .shapes {
+    display: block;
+    flex: 1;
+  }
+}

@@ -11,5 +11,6 @@
 
 .text {
   color: var(--color-base-black);
-  font: var(--font-text-lg-bold);
+  font: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
 }

@@ -4,6 +4,7 @@ import { Provider } from "effector-react";
 import { App } from "@/app";
 import { appStarted } from "./shared/init";
 import { allSettled, fork } from "effector";
+import "@/app/styles/index.css";
 
 const root = document.getElementById("root") as HTMLElement;
 

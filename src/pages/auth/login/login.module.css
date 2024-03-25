@@ -25,6 +25,17 @@
   display: none;
 }
 
+.backlink {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.backlink svg {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
 @media (min-width: 640px) {
   .mobile-ornament {
     display: none;

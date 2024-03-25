@@ -1,5 +1,5 @@
 import { attach, createEvent, createStore, sample } from "effector";
-import { api, Profile, User } from "@/shared/api";
+import { api, User } from "@/shared/api";
 
 export type OnboardingUserError = "UnknownError" | "FirstNameInvalid";
 

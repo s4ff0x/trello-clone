@@ -27,11 +27,7 @@ export const profileExistsFx = createEffect<
 
   checkError(error);
 
-  if (profiles === null || profiles.length === 0) {
-    return false;
-  }
-
-  return true;
+  return !(profiles === null || profiles.length === 0);
 });
 
 export const profileCreateFx = createEffect<
